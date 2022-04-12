@@ -20,8 +20,8 @@
 
   let example_01 =
     "let total = 0;\n\
-for(let i = 0; i < a.length; ++i) {\n\
-    total += a.charCodeAt(i);\n\
+for(let i = 0; i < key.length; ++i) {\n\
+    total += key.charCodeAt(i);\n\
 	index = total;\n\
 }";
 </script>
