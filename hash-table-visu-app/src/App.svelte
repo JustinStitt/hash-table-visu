@@ -10,7 +10,9 @@
   $: arr = Array(capacity).fill(0);
   $: key = key_to_insert;
   $: value = value_to_insert;
+  console.log();
   const run = () => {
+    code_block = `let key = "${key_to_insert}"\n` + code_block;
     let index = 0;
     eval(code_block);
     index = index % capacity;
