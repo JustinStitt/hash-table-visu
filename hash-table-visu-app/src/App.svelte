@@ -5,6 +5,7 @@
   let capacity = 10;
 
   let arr = Array(capacity).fill(0);
+  let key = "";
 
   $: arr = Array(capacity).fill(0);
   $: key = key_to_insert;
