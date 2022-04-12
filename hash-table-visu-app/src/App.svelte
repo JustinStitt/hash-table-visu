@@ -22,8 +22,7 @@
     "let total = 0;\n\
 for(let i = 0; i < key.length; ++i) {\n\
     total += key.charCodeAt(i);\n\
-	index = total;\n\
-}";
+	index = total;\n";
 </script>
 
 <!-- begin HTML -->
