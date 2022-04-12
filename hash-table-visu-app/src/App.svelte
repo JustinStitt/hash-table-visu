@@ -22,6 +22,7 @@
     "let total = 0;\n\
 for(let i = 0; i < a.length; ++i) {\n\
     total += a.charCodeAt(i);\n\
+	index = total;\n\
 }";
 </script>
 
@@ -54,7 +55,7 @@ for(let i = 0; i < a.length; ++i) {\n\
       style="border: 2px dashed gray"
       readonly
       spellcheck="false"
-      rows="6"
+      rows="7"
       cols="42"
     >
       {example_01}
