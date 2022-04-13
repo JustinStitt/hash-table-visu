@@ -12,9 +12,9 @@
   $: value = value_to_insert;
   console.log();
   const run = () => {
-    code_block = `let key = "${key_to_insert}"\n` + code_block;
+    ran_code_block = `let key = "${key_to_insert}"\n` + code_block;
     let index = 0;
-    eval(code_block);
+    eval(ran_code_block);
     index = index % capacity;
     arr[index] = value;
     key_to_insert = "";
