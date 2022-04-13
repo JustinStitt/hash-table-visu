@@ -12,7 +12,7 @@
   $: value = value_to_insert;
   console.log();
   const run = () => {
-    ran_code_block = `let key = "${key_to_insert}"\n` + code_block;
+    let ran_code_block = `let key = "${key_to_insert}"\n` + code_block;
     let index = 0;
     eval(ran_code_block);
     index = index % capacity;
